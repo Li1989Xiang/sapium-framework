@@ -1,0 +1,184 @@
+{
+	"localRepository": 
+	{
+		"oBtnBack": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIANavigationBar[1]/UIAButton[2]"
+		},
+
+		"oEditCode": 
+		{
+			"by": "xpath",
+			"value": "//UIATextField[@value='请输入证券代码']"
+		},
+
+		"oTextTempGPMC": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='证券代码']/following-sibling::*[2]"
+		},
+
+		"oEditNum": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIATextField[3]"
+		},
+
+		"oEditPrice": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIATextField[2]"
+		},
+
+		"oBtnPriceDown": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIAButton[4]"
+		},
+
+		"oBtnPriceUp": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIAButton[5]"
+		},
+
+		"oBtn1of3Num": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='1/3仓']"
+		},
+
+		"oBtn1of2Num": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='1/2仓']"
+		},
+
+		"oBtnAllinNum": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='全仓']"
+		},
+
+		"oScrollType": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='委托类型']"
+		},
+
+		"oTextNowShow": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIAButton[3]"
+		},
+
+		"oTextXJWT": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='限价委托']"
+		},
+
+		"oTextDFZYJG": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='对方最优价格']"
+		},
+
+		"oTextBFZYJG": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='本方最优价格']"
+		},
+
+		"oTextJSCJSYCX": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='即时成交剩余撤销']"
+		},
+
+		"oTextWDJCCX": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='五档即成撤销']"
+		},
+
+		"oTextQECJHCX": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='全额成交或撤销']"
+		},
+
+		"oBtnBuyorSell": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='买入' or @name='卖出']"
+		},
+
+		"oTextItem": 
+		{
+			"by": "className",
+			"value": "UIATableCell"
+		},
+
+		"oTextWTFS": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='委托方式']/following-sibling::*[1]"
+		},
+
+		"oTextGDDM": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='股东代码']/following-sibling::*[1]"
+		},
+
+		"oTextZQDM": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='证券代码']/following-sibling::*[1]"
+		},
+
+		"oTextZQMC": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='证券名称']/following-sibling::*[1]"
+		},
+
+		"oTextWTJG": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='委托价格']/following-sibling::*[2]"
+		},
+
+		"oTextWTSL": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='委托数量']/following-sibling::*[1]"
+		},
+
+		"oBtnBuyEnsure": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='确定']"
+		},
+
+		"oTextWTIsSuccInfo": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='提示']/following-sibling::*[1]"
+		},
+
+		"oBtnWTIsSuccEnsure": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='确定']"
+		},
+
+		"oBtnCancel": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='取消']"
+		}
+	}
+}

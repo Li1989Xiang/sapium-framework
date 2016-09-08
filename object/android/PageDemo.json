@@ -1,0 +1,38 @@
+{
+	"repo": 
+	{
+		"oEditSearch": 
+		[
+			{
+				"by": "id",
+				"value": "zhongxinjiantou.szkingdom.android.newphone:id/ib_title"
+			},
+
+			{
+				"by": "id",
+				"value": "error test1"
+			}
+		],
+		
+		"oBtnCancal": 
+		[
+			{
+				"by": "id",
+				"value": "error test2"
+			},
+
+			{
+				"by": "id",
+				"value": "zhongxinjiantou.szkingdom.android.newphone:id/txt_search_cancle"
+			}
+		],
+		
+		"oException": 
+		[
+			{
+				"by": "id",
+				"value": "error test3"
+			}
+		]
+	}
+}

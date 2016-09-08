@@ -1,0 +1,94 @@
+{
+	"localRepository": 
+	{
+		"oBtnBankToBroker": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIAButton[1]"
+		},
+
+		"oBtnBrokerToBank": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='证券转银行']"
+		},
+
+		"oTextBankOrBrokerChose": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIATextField[1]"
+		},
+
+		"oTextZHSF3666": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='招行三方 尾号3666']"
+		},
+
+		"oTextZGYH0061": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='中国银行 尾号0061']"
+		},
+
+		"oTextZGYH0062": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='中国银行 尾号0062']"
+		},
+
+		"oEditNum": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIATextField[2]"
+		},
+
+		"oBtnConfirm": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='确定']"
+		},
+
+		"oBtnPopupConfirm": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='取消']/following-sibling::*[1]"
+		},
+
+		"oBtnPopupConfirm2": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='转账']/following-sibling::*[2]"
+		},
+
+		"oTextCheckNum": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='转入金额' or @name='转出金额']/following-sibling::*[1]"
+		},
+
+		"oTextCheckBank": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='转入银行' or @name='转出银行']/following-sibling::*[1]"
+		},
+
+		"oTextBankPwd": 
+		{
+			"by": "xpath",
+			"value": "//UIASecureTextField[@value='请输入银行密码']"
+		},
+
+		"oTextCapitalPwd": 
+		{
+			"by": "xpath",
+			"value": "//UIASecureTextField[@value='请输入资金密码']"
+		},
+
+		"oTextIsSuccMsg": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='转账']/following-sibling::*[1]"
+		}
+	}
+}

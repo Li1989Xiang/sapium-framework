@@ -1,0 +1,184 @@
+{
+	"repo": 
+	{
+		"oBtnBack": 
+		{
+			"by": "id",
+			"value": "zhongxinjiantou.szkingdom.android.newphone:id/abs__home_svgicon"
+		},
+
+		"oEditCode": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.widget.EditText\").instance(0);"
+		},
+
+		"oTextTempGPMC": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='证券代码']/../following-sibling::*[1]/android.view.View"
+		},
+
+		"oEditNum": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='买入数量']/../following-sibling::*[1]"
+		},
+
+		"oEditPrice": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.widget.EditText\").instance(1)"
+		},
+
+		"oBtnPriceDown": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='委托价格']/../following-sibling::*[1]"
+		},
+
+		"oBtnPriceUp": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='委托价格']/../following-sibling::*[3]"
+		},
+
+		"oBtn1of3Num": 
+		{
+			"by": "accessibility",
+			"value": "1/3仓"
+		},
+
+		"oBtn1of2Num": 
+		{
+			"by": "accessibility",
+			"value": "1/2仓"
+		},
+
+		"oBtnAllinNum": 
+		{
+			"by": "accessibility",
+			"value": "全仓"
+		},
+
+		"oScrollType": 
+		{
+			"by": "accessibility",
+			"value": "委托类型"
+		},
+
+		"oTextNowShow": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='委托类型']/../following-sibling::*[1]/android.widget.Button"
+		},
+
+		"oTextXJWT": 
+		{
+			"by": "accessibility",
+			"value": "限价委托"
+		},
+
+		"oTextDFZYJG": 
+		{
+			"by": "accessibility",
+			"value": "对方最优价格"
+		},
+
+		"oTextBFZYJG": 
+		{
+			"by": "accessibility",
+			"value": "本方最优价格"
+		},
+
+		"oTextJSCJSYCX": 
+		{
+			"by": "accessibility",
+			"value": "即时成交剩余撤销"
+		},
+
+		"oTextWDJCCX": 
+		{
+			"by": "accessibility",
+			"value": "五档即成撤销"
+		},
+
+		"oTextQECJHCX": 
+		{
+			"by": "accessibility",
+			"value": "全额成交或撤销"
+		},
+
+		"oBtnBuyorSell": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='买入数量']/../following-sibling::*[2]"
+		},
+
+		"oTextItem": 
+		{
+			"by": "id",
+			"value": "zhongxinjiantou.szkingdom.android.newphone:id/txt_stockName"
+		},
+
+		"oTextWTFS": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='委托方式']/following-sibling::*[1]"
+		},
+
+		"oTextGDDM": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='股东代码']/following-sibling::*[1]"
+		},
+
+		"oTextZQDM": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='证券代码']/following-sibling::*[1]"
+		},
+
+		"oTextZQMC": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='证券名称']/following-sibling::*[1]"
+		},
+
+		"oTextWTSL": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='委托数量']/following-sibling::*[1]"
+		},
+
+		"oTextWTJG": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='委托价格']/following-sibling::*[1]"
+		},
+
+		"oBtnBuyEnsure": 
+		{
+			"by": "accessibility",
+			"value": "确定"
+		},
+
+		"oTextWTIsSuccInfo": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='提示 Heading']/following-sibling::*[1]"
+		},
+
+		"oBtnWTIsSuccEnsure": 
+		{
+			"by": "accessibility",
+			"value": "确定"
+		},
+
+		"oBtnCancel": 
+		{
+			"by": "id",
+			"value": "zhongxinjiantou.szkingdom.android.newphone:id/abs__home_svgicon"
+		}
+	}
+}

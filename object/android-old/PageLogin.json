@@ -1,0 +1,52 @@
+{
+	"repo": 
+	{
+		"oBtnTrade": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().resourceId(\"zhongxinjiantou.szkingdom.android.newphone:id/tv_title\").text(\"交易\");"
+		},
+
+		"oBtnBuy": 
+		{
+			"by": "accessibility",
+			"value": " 买入 Link"
+		},
+
+		"oEditUser": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.widget.EditText\").instance(1);"
+		},
+
+		"oEditPwd": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.widget.EditText\").instance(2);"
+		},
+
+		"oEditVerCode": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.widget.EditText\").instance(3)"
+		},
+
+		"oTextVerCode": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().description(\"交易登录\").childSelector(new UiSelector().className(\"android.view.View\"));"
+		},
+
+		"oBtnLogin": 
+		{
+			"by": "accessibility",
+			"value": "登录"
+		},
+
+		"oBtnBack": 
+		{
+			"by": "id",
+			"value": "zhongxinjiantou.szkingdom.android.newphone:id/abs__home_svgicon"
+		}
+	}
+}

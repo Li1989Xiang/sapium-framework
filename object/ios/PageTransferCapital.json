@@ -1,0 +1,52 @@
+{
+	"localRepository": 
+	{
+		"oTextTransferCapital": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='资金归集']"
+		},
+
+		"oTextTransferFlow": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='调拨流水']"
+		},
+
+		"oTextMasterNum": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='80316041(默认值)']"
+		},
+
+		"oBtnCapitalSum": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='80316041(默认值)']/following-sibling::*[3]"
+		},
+
+		"oTextAssistantNum1": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='80331592(默认值)']"
+		},
+
+		"oBtnDispatch1": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='80331592(默认值)']/following-sibling::*[3]"
+		},
+
+		"oTextAssistantNum2": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='80331593(默认值)']"
+		},
+
+		"oBtnDispatch2": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='80331593(默认值)']/following-sibling::*[3]"
+		}
+	}
+}

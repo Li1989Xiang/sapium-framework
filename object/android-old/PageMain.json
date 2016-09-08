@@ -1,0 +1,22 @@
+{
+	"repo": 
+	{
+		"oBtnBuy": 
+		{
+			"by": "accessibility",
+			"value": " 买入 Link"
+		},
+
+		"oBtnSell": 
+		{
+			"by": "accessibility",
+			"value": " 卖出 Link"
+		},
+
+		"oTextTransferBankAndBroker": 
+		{
+			"by": "accessibility",
+			"value": " 银证转账 Link"
+		}
+	}
+}

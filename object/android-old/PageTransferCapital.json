@@ -1,0 +1,52 @@
+{
+	"repo": 
+	{
+		"oTextTransferCapital": 
+		{
+			"by": "",
+			"value": ""
+		},
+
+		"oTextTransferFlow": 
+		{
+			"by": "",
+			"value": ""
+		},
+
+		"oTextMasterNum": 
+		{
+			"by": "",
+			"value": ""
+		},
+
+		"oBtnCapitalSum": 
+		{
+			"by": "",
+			"value": ""
+		},
+
+		"oTextAssistantNum1": 
+		{
+			"by": "",
+			"value": ""
+		},
+
+		"oBtnDispatch1": 
+		{
+			"by": "",
+			"value": ""
+		},
+
+		"oTextAssistantNum2": 
+		{
+			"by": "",
+			"value": ""
+		},
+
+		"oBtnDispatch2": 
+		{
+			"by": "",
+			"value": ""
+		}
+	}
+}

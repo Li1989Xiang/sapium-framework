@@ -1,0 +1,28 @@
+{
+	"localRepository": 
+	{
+		"oBtnBuy": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='买入']"
+		},
+
+		"oBtnSell": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='卖出']"
+		},
+
+		"oTextTransferBankAndBroker": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='银证转账']"
+		},
+
+		"oTextTransferCapital": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='资金调度']"
+		}
+	}
+}

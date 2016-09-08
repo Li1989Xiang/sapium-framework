@@ -1,0 +1,52 @@
+{
+	"localRepository": 
+	{
+		"oBtnBack": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIANavigationBar[1]/UIAButton[2]"
+		},
+
+		"oBtnTrade": 
+		{
+			"by": "accessibility",
+			"value": "交易"
+		},
+
+		"oBtnBuy": 
+		{
+			"by": "xpath",
+			"value": "//UIAStaticText[@name='买入']"
+		},
+
+		"oEditUser": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIATextField[2]"
+		},
+
+		"oEditPwd": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIASecureTextField[1]"
+		},
+
+		"oEditVerCode": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIATextField[3]"
+		},
+
+		"oTextVerCode": 
+		{
+			"by": "xpath",
+			"value": "//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[1]"
+		},
+
+		"oBtnLogin": 
+		{
+			"by": "xpath",
+			"value": "//UIAButton[@name='登录']"
+		}
+	}
+}

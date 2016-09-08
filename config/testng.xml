@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MobileSuite">
+	<test name="MobileTest">
+		<parameter name="A1登录" value="A1登录" />
+		<parameter name="B1股票买入" value="B1股票买入" />
+		<parameter name="B2股票买入按钮验证" value="B2股票买入按钮验证" />
+		<parameter name="B3股票卖出" value="B3股票卖出" />
+		<parameter name="B3股票卖出按钮验证" value="B3股票卖出按钮验证" />
+		<parameter name="D1银证转帐" value="D1银证转帐" />
+		
+		<classes>
+			<!-- <class name="com.sapium.PageLogin" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

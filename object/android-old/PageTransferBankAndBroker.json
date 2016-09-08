@@ -1,0 +1,94 @@
+{
+	"repo": 
+	{
+		"oBtnBankToBroker": 
+		{
+			"by": "accessibility",
+			"value": "银行转证券"
+		},
+
+		"oBtnBrokerToBank": 
+		{
+			"by": "accessibility",
+			"value": "证券转银行"
+		},
+
+		"oTextBankOrBrokerChose": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+		},
+
+		"oTextZHSF3666": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.view.View\").description(\"招行三方\");"
+		},
+
+		"oTextZGYH0061": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.view.View\").description(\"中国银行\");"
+		},
+
+		"oTextZGYH0062": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.view.View\").description(\"中国银行\").instance(1);"
+		},
+
+		"oEditNum": 
+		{
+			"by": "uiAutomator",
+			"value": "new UiSelector().className(\"android.widget.EditText\").instance(1)"
+		},
+
+		"oBtnConfirm": 
+		{
+			"by": "accessibility",
+			"value": "确定"
+		},
+
+		"oBtnPopupConfirm": 
+		{
+			"by": "xpath",
+			"value": "//android.widget.Button[@content-desc='取消']/following-sibling::*[1]"
+		},
+
+		"oBtnPopupConfirm2": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='转账 Heading']/following-sibling::*[2]/android.widget.Button"
+		},
+
+		"oTextCheckNum": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='转入金额' or @content-desc='转出金额']/following-sibling::*[1]"
+		},
+
+		"oTextCheckBank": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='转入银行' or @content-desc='转出银行']/following-sibling::*[1]"
+		},
+
+		"oTextBankPwd": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='银行密码']/../following-sibling::*[1]/android.widget.EditText"
+		},
+
+		"oTextCapitalPwd": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='资金密码']/../following-sibling::*[1]/android.widget.EditText"
+		},
+
+		"oTextIsSuccMsg": 
+		{
+			"by": "xpath",
+			"value": "//android.view.View[@content-desc='转账 Heading']/following-sibling::*[1]"
+		}
+	}
+}

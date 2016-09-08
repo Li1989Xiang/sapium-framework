@@ -1,0 +1,3 @@
+Starter#run()
+GlobalConfiguration#setDefault()
+TestConfiguration - delete logger
